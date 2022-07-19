@@ -12,7 +12,8 @@
           "help": {
             "online": "http://bbs.t-firefly.com/forum.php?mod=forumdisplay&fid=140"
           },
-          "url": "http://www.t-firefly.com/download/fireduino/fireduino_sdk-1.3.1.tar.gz",
+          "url": "https://github.com/jwmatthys/fireduino-temp/blob/main/fireduino_sdk-1.3.1.tar.gz?raw=true",
+          "checksum": "SHA-256:ed0ae0d98ac3595b9cd08ee3552b68fcf32938541b1984b5b686d1d02380d274",
           "version": "1.3.1",
           "architecture": "arm",
           "archiveFileName": "fireduino_sdk-1.3.1.tar.gz",
@@ -43,7 +44,8 @@
           "name": "fireduino_tools",
           "systems": [
             {
-              "url": "http://www.t-firefly.com/download/fireduino/fireduino_tools_linux-1.0.1.tar.gz",
+              "url": "https://github.com/jwmatthys/fireduino-temp/blob/main/fireduino_tools_linux-1.0.1.tar.gz?raw=true",
+              "checksum": "SHA-256:96be29504607201f10c6c1e9efdf3ff8aeb2f3b8f8105a5718d4efd7eab0f0ce",
               "host": "x86_64-pc-linux-gnu",
               "archiveFileName": "fireduino_tools_linux-1.0.1.tar.gz",
               "size": "1679443"
@@ -55,10 +57,10 @@
           "name": "arm-none-eabi-gcc",
           "systems": [
             {
-              "url": "http://www.t-firefly.com/download/fireduino/gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
-              "checksum": "SHA-256:d23f6626148396d6ec42a5b4d928955a703e0757829195fa71a939e5b86eecf6",
               "host": "x86_64-pc-linux-gnu",
+              "url": "http://arduino.cc/download.php?f=/gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
               "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+              "checksum": "SHA-256:d23f6626148396d6ec42a5b4d928955a703e0757829195fa71a939e5b86eecf6",
               "size": "51395093"
             }
           ]
